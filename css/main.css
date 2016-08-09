@@ -1,0 +1,87 @@
+/* Tu CSS va aqui */
+/*--=============================================Header con 1 fila=====================================-*/
+.menu, a{
+	text-align: right;
+	text-decoration: none;
+	color: black;
+	margin: 1%;
+	padding-top: 2%;
+	font-family: "Open Sans";
+}
+.logo{
+	width: 50% !important;
+	
+	
+}
+/*--=============================================cuerpo con 1 fila=====================================-*/
+
+.container{
+	padding: 50%;
+
+}
+.backgroung-gray{
+	background-color: #808080;
+	background-size: auto;
+}
+.title, .text1{
+	color: white;
+	padding-bottom:5%;
+	font-family: "Open Sans";
+}
+.text2{
+	color: white;
+	text-align: center;
+	font-family: "Open Sans";
+}
+.title{
+	font-size:250%;
+	font-family: "Open Sans";
+}
+
+.button {
+    background-color:#79B8F6;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 3% 25%;
+    position: relative;
+    left: 15%;
+}
+.formulario{
+	border-radius: 3% ;
+	background-color:#9a9a9a;
+	width:95%;
+	margin: 10%;
+	padding: 1%;
+
+}
+.form{
+	position: relative;
+	left: 15%;
+	padding-right:15%;
+	margin-top: 3%;
+}
+@media (max-width: 535px){
+	.formulario{
+		width: 100%;
+		margin:0;
+		padding: 0;
+	}
+    
+.col4{
+	width: 50%
+	margin:0;
+}
+.button{
+	 padding: 3% 20%;
+}
+}
+	
+
+
+
+/*--=============================================Footer con 1 fila=====================================-*/
